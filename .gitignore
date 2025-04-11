@@ -1,0 +1,59 @@
+# Rust build artifacts
+/rust/target/
+/rust/Cargo.lock
+**/*.rs.bk
+**/*.o
+**/*.a
+**/*.so
+**/*.dylib
+**/*.dll
+**/*.exe
+
+# Go build artifacts
+/bert_classifier
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+*.tmp
+*.out
+/coverage.*
+
+# Dependency directories (remove these if want to check in dependencies)
+/vendor/
+
+# Build results
+/dist/
+/build/
+/tmp/
+
+# Local development settings
+.env
+.envrc
+*.env.local
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Go workspace file
+go.work
+
+# Downloaded models from Hugging Face
+/models/
+/downloads/
+/.cache/
+
+# Log files
+*.log
+/logs/ 
